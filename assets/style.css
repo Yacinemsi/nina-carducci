@@ -1,3 +1,7 @@
+img {
+  width: 100%;
+  height: 100%;
+}
 body {
   max-width: 1920px;
   margin: auto;
@@ -39,7 +43,8 @@ body {
 }
 
 .social-link img {
-  width: 20px;
+  width: 90%;
+  height: 40%;
 }
 
 #about {
@@ -66,9 +71,14 @@ body {
   margin: 0 20px;
   z-index: 0;
 }
-
-.picture img {
+.lightboxImage {
   width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.picture img {
+  max-width: max-content;
+  max-height: max-content;
 }
 #about-me {
   flex: 2;
