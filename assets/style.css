@@ -111,14 +111,14 @@ body {
 }
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color: #fff;
+  color: black;
   background-color: #beb45a;
   border-radius: 0;
 }
 /* Élement rajouter qui permet de changer la couleur de l'élement actif */
 .tags-bar .nav-link.active-tag {
   background-color: #beb45a;
-  color: white;
+  color: black;
 }
 .tags-bar .nav-link:hover {
   cursor: pointer;
